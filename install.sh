@@ -22,14 +22,16 @@ echo -ne "
 
 # Apps
 echo "Vamos instalar alguns programas"
+
 sudo pacman -Sy firefox zsh waybar hyprland neovim kitty
 
 # Config
 echo "Clonando meu repositório com meus arquivos de configuração"
+
 git clone https://github.com/adotive/kitty ~/.config/kitty
 git clone https://github.com/adotive/waybar ~/.config/waybar
-mkdir pix 
-mkdir dos
+mkdir $HOME/pix 
+mkdir $HOME/dos
 curl -sS https://starship.rs/install.sh | sh
 
 # Yay
@@ -40,10 +42,6 @@ makepkg -si
 cd 
 clear
 echo -ne "
-
-# Finalização
-cd
-
 
 =========================================================================================================
 
@@ -60,3 +58,6 @@ cd
                                                                                                                                                                                
 sudo rm -r arch
 sudo rm install.sh
+
+# Finalização
+cd

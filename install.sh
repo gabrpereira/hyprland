@@ -38,10 +38,16 @@ curl -sS https://starship.rs/install.sh | sh
 echo "Instalar o Yay (AUR Helper)"
 git clone https://aur.archlinux.org/yay.git ~/.config/yay
 cd .config/yay
-makepkg -si
-cd 
+makepkg -si 
 clear
 echo -ne "
+
+
+# Finalização
+sudo rm install.sh
+cd
+sudo rm -r arch
+cd
 
 =========================================================================================================
 
@@ -56,8 +62,4 @@ echo -ne "
                                                                                                           
 "                                                                                                                                                                                   
                                                                                                                                                                                
-sudo rm install.sh
-cd
-sudo rm -r arch
-# Finalização
-cd
+

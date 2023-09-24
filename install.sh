@@ -21,9 +21,11 @@ echo -ne "
 "
 
 # Apps
+echo "Vamos instalar alguns programas"
 sudo pacman -Sy firefox zsh waybar hyprland neovim kitty
 
 # Config
+echo "Clonando meu repositório com meus arquivos de configuração"
 git clone https://github.com/adotive/kitty ~/.config/kitty
 git clone https://github.com/adotive/waybar ~/.config/waybar
 mkdir pix 
@@ -31,12 +33,17 @@ mkdir dos
 curl -sS https://starship.rs/install.sh | sh
 
 # Yay
+echo "Instalar o Yay (AUR Helper)
 git clone https://aur.archlinux.org/yay.git ~/.config/yay
 cd .config/yay
 makepkg -si
 cd 
 clear
 echo -ne "
+
+# Finalização
+cd
+
 
 =========================================================================================================
 

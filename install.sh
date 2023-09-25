@@ -31,8 +31,6 @@ echo "Clonando meu repositório com meus arquivos de configuração"
 
 git clone https://github.com/adotive/kitty ~/.config/kitty
 git clone https://github.com/adotive/waybar ~/.config/waybar
-mkdir $HOME/pix 
-mkdir $HOME/dos
 
 # Prompt
 curl -sS https://starship.rs/install.sh | sh

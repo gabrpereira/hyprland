@@ -21,8 +21,6 @@ echo -ne "
 "
 
 # Apps
-echo "Vamos instalar alguns programas"
-
 sudo pacman -Sy firefox zsh waybar hyprland neovim kitty
 
 # Config
@@ -43,11 +41,8 @@ clear
 
 # Finalização
 sudo rm install.sh
-cd
-script_dir=$(dirname "$0")  # Obtém o diretório do script
-sudo rm "$0"                # Remove o próprio script
-cd "$script_dir"/..         # Navega para o diretório pai do diretório do script
-sudo rm -r "$script_dir"     # Remove o diretório do script
+cd ..
+sudo rm $HOME/arch
 
 echo -ne "
 =========================================================================================================
@@ -61,7 +56,7 @@ echo -ne "
 
 =========================================================================================================                                                                                                                                                                                                                    
 "                                                                                                                                                                                   
-cd    
-echo "Agora vamos reiniciar o computador com o sistema prontinho pra ser usado"
-reboot
+cd $HOME
+echo "Acabou :D"
+
 

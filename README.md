@@ -5,7 +5,9 @@ Para fazer com que o processo de configuração do Arch Linux seja mais rápido 
 
 # Instalação / Installation
 ``git clone https://github.com/adotive/arch
+
 chmod +x install.sh
+
 ./install.sh``
 
 # O que será instalado? / What is going to be installed?

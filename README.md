@@ -9,6 +9,8 @@ Para fazer com que o processo de configuração do Arch Linux seja mais rápido 
 - `./install.sh`
 
 # O que será instalado? 🤔
+- Tema para o GRUB
+- Starship (https://starship.rs/)
 - Zsh (https://www.zsh.org/)
 - Hyprland (https://github.com/hyprwm/Hyprland)
 - Kitty (https://github.com/kovidgoyal/kitty)

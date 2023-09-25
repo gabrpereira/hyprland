@@ -41,6 +41,13 @@ cd .config/yay
 makepkg -si 
 clear
 
+# GRUB-THEME
+git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
+cd Top-5-Bootloader-Themes
+sudo ./install.sh
+cd ..
+sudo rm /Top-5-Bootloader-Themes
+
 # Finalização
 sudo rm install.sh
 cd ..

@@ -24,7 +24,7 @@ echo -e "\e[1;34m
 \e[0m"
 
 # Apps
-sudo pacman -Sy firefox fish waybar hyprland neovim kitty grim noto-fonts-cjk
+sudo pacman -Sy firefox fish waybar hyprland neovim kitty grim noto-fonts-cjk otf-font-awesome
 
 # Config
 echo "Clonando meu repositório com meus arquivos de configuração"

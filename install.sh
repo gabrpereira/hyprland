@@ -64,24 +64,6 @@ echo -e "\e[1;34m
 cd $HOME  
 chsh -s $(which fish)
 
-
-linha_a_adicionar="starship init fish | source"
-
-arquivo_config_fish="$HOME/.config/fish/config.fish"
-
-if [ -f "$arquivo_config_fish" ]; then
-  if ! grep -qF "$linha_a_adicionar" "$arquivo_config_fish"; then
-    echo "$linha_a_adicionar" >> "$arquivo_config_fish"
-    echo -e "\e[1;32mStarship agora faz parte do Fish! :)\e[0m"
-  else
-    echo -e "\e[1;33mA linha já existe no arquivo de configuração do Fish Shell.\e[0m"
-  fi
-else
-  echo -e "\e[1;33mO arquivo de configuração do Fish Shell não foi encontrado em $arquivo_config_fish.\e[0m"
-fi
-clear
-
-# Contador de 5 segundos antes de reiniciar
 for i in {5..1}; do
   echo -e "\e[1;31mReiniciando em $i segundo(s)... Pressione Ctrl+C para cancelar\e[0m"
   sleep 1

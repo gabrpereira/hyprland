@@ -24,7 +24,7 @@ echo -e "\e[1;34m
 \e[0m"
 
 # Apps
-sudo pacman -Sy firefox fish waybar hyprland neovim kitty grim noto-fonts-cjk otf-font-awesome
+sudo pacman -Sy firefox fish waybar hyprland neovim kitty grim noto-fonts-cjk otf-font-awesome slurp
 
 # Config
 echo "Clonando meu repositório com meus arquivos de configuração"
@@ -52,7 +52,7 @@ sudo rm -r /Top-5-Bootloader-Themes
 # Finalização
 sudo rm install.sh
 cd ..
-sudo rm -r $HOME/arch
+sudo rm -r $HOME/hyprland
 clear
 
 echo -e "\e[1;34m

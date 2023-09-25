@@ -1,6 +1,6 @@
 #!/bin/sh
 clear
-echo -ne "
+echo -e "\e[1;32m
 ===============================================================================
 
 ██████╗ ███████╗███╗   ███╗    ██╗   ██╗██╗███╗   ██╗██████╗  ██████╗ ██╗██╗██╗
@@ -18,7 +18,7 @@ echo -ne "
 
               AGORA VAMOS INSTALAR OS PROGRAMAS NECESSARIOS
       
-"
+\e[0m"
 
 # Apps
 sudo pacman -Sy firefox zsh waybar hyprland neovim kitty
@@ -39,7 +39,6 @@ echo "Instalar o Yay (AUR Helper)"
 git clone https://aur.archlinux.org/yay.git ~/.config/yay
 cd .config/yay
 makepkg -si 
-clear
 
 # GRUB-THEME
 git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
@@ -62,7 +61,7 @@ echo -e "\e[1;32m
    ██║   ██║   ██║██║  ██║██║   ██║    ██╔═══╝ ██╔══██╗██║   ██║██║╚██╗██║   ██║   ██║   ██║╚═╝    ██╗ ██║
    ██║   ╚██████╔╝██████╔╝╚██████╔╝    ██║     ██║  ██║╚██████╔╝██║ ╚████║   ██║   ╚██████╔╝██╗    ╚═╝██╔╝
    ╚═╝    ╚═════╝ ╚═════╝  ╚═════╝     ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝    ╚═════╝ ╚═╝       ╚═╝ 
-===============================================================================\e[0m"                                                                                                                                                                                                                
+===============================================================================\e[0m"                                                                                                                                                                                                             
 
 cd $HOME  
 

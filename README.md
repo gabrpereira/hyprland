@@ -11,7 +11,7 @@ Para fazer com que o processo de configuração do Arch Linux seja mais rápido 
 # O que será instalado? 🤔
 - Tema para o GRUB
 - Starship (https://starship.rs/)
-- Zsh (https://www.zsh.org/)
+- Fish (https://fishshell.com/)
 - Hyprland (https://github.com/hyprwm/Hyprland)
 - Kitty (https://github.com/kovidgoyal/kitty)
 - Neovim (https://github.com/neovim/neovim)

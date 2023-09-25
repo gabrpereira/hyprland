@@ -24,7 +24,7 @@ echo -e "\e[1;34m
 \e[0m"
 
 # Apps
-sudo pacman -Sy firefox zsh waybar hyprland neovim kitty
+sudo pacman -Sy firefox fish waybar hyprland neovim kitty
 
 # Config
 echo "Clonando meu repositório com meus arquivos de configuração"
@@ -68,6 +68,8 @@ echo -e "\e[1;34m
 
 \e[0m"
 cd $HOME  
+chsh -s (which fish)
+
 
 # Contador de 5 segundos antes de reiniciar
 for i in {5..1}; do

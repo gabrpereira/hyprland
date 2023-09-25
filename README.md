@@ -9,8 +9,8 @@ chmod +x install.sh
 ./install.sh``
 
 # O que será instalado?
-- Zsh (Z Shell)
-- Hyprland
-- Kitty
-- Neovim
-- Waybar
+- Zsh (https://www.zsh.org/)
+- Hyprland (https://github.com/hyprwm/Hyprland)
+- Kitty (https://github.com/kovidgoyal/kitty)
+- Neovim (https://github.com/neovim/neovim)
+- Waybar (https://github.com/Alexays/Waybar)

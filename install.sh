@@ -24,12 +24,13 @@ echo -e "\e[1;34m
 \e[0m"
 
 # Apps
-sudo pacman -Sy firefox fish waybar hyprland neovim kitty grim
+sudo pacman -Sy firefox fish waybar hyprland neovim kitty grim noto-fonts-cjk
 
 # Config
 echo "Clonando meu repositório com meus arquivos de configuração"
 
 git clone https://github.com/adotive/kitty ~/.config/kitty
+git clone https://github.com/adotive/hypr ~/.config/hypr
 git clone https://github.com/adotive/waybar ~/.config/waybar
 
 # Prompt

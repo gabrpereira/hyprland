@@ -68,7 +68,7 @@ echo -e "\e[1;34m
 
 \e[0m"
 cd $HOME  
-chsh -s (which fish)
+chsh -s $(which fish)
 
 
 # Contador de 5 segundos antes de reiniciar

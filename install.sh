@@ -59,5 +59,7 @@ echo -ne "
 
 =========================================================================================================                                                                                                                                                                                                                    
 "                                                                                                                                                                                   
-cd                                                                                                                                                                        
+cd    
+echo "Agora vamos reiniciar o computador com o sistema prontinho pra ser usado"
+reboot
 

@@ -44,7 +44,7 @@ clear
 # Finalização
 sudo rm install.sh
 cd ..
-sudo rm $HOME/arch
+sudo rm -r $HOME/arch
 
 echo -ne "
 =========================================================================================================

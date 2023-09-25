@@ -44,8 +44,10 @@ clear
 # Finalização
 sudo rm install.sh
 cd
-sudo rm -r arch
-cd
+script_dir=$(dirname "$0")  # Obtém o diretório do script
+sudo rm "$0"                # Remove o próprio script
+cd "$script_dir"/..         # Navega para o diretório pai do diretório do script
+sudo rm -r "$script_dir"     # Remove o diretório do script
 
 echo -ne "
 =========================================================================================================

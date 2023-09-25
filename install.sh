@@ -69,26 +69,22 @@ echo -e "\e[1;34m
 cd $HOME  
 chsh -s $(which fish)
 
-# Adicionar o Startship ao fish
 
 linha_a_adicionar="starship init fish | source"
 
-# Caminho para o arquivo de configuração do Fish Shell
 arquivo_config_fish="$HOME/.config/fish/config.fish"
 
-# Verifique se o arquivo de configuração existe antes de adicionarmos a linha
 if [ -f "$arquivo_config_fish" ]; then
-  # Verifique se a linha já existe no arquivo antes de adicioná-la novamente
   if ! grep -qF "$linha_a_adicionar" "$arquivo_config_fish"; then
-    # Adicione a linha ao arquivo de configuração
     echo "$linha_a_adicionar" >> "$arquivo_config_fish"
-    echo "Linha adicionada com sucesso ao arquivo de configuração do Fish Shell."
+    echo "Starship agora faz parte do Fish! :)"
   else
     echo "A linha já existe no arquivo de configuração do Fish Shell."
   fi
 else
   echo "O arquivo de configuração do Fish Shell não foi encontrado em $arquivo_config_fish."
 fi
+clear
 
 # Contador de 5 segundos antes de reiniciar
 for i in {5..1}; do

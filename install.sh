@@ -18,7 +18,7 @@ echo -e "\e[1;34m
 
 # Apps
 echo -e "\e[1;32mInstalando aplicativos necessários...\e[0m"
-sudo pacman -Sy firefox zsh waybar hyprland neovim kitty grim noto-fonts-cjk otf-font-awesome slurp
+sudo pacman -Sy firefox waybar hyprland neovim kitty grim noto-fonts-cjk otf-font-awesome slurp
 
 # Config
 echo -e "\e[1;32mClonando meu repositório com meus arquivos de configuração...\e[0m"
@@ -44,7 +44,10 @@ sudo ./install.sh
 cd ..
 sudo rm -r Top-5-Bootloader-Themes
 
-# Finalização
+# Install Lf
+yay -S lf
+
+# Final stage
 sudo rm install.sh
 cd ..
 sudo rm -r $HOME/hyprland
@@ -62,7 +65,6 @@ echo -e "\e[1;34m
 
 \e[0m"
 cd $HOME  
-chsh -s $(which zsh)
 
 for i in {5..1}; do
   echo -e "\e[1;31mReiniciando em $i segundo(s)... Pressione Ctrl+C para cancelar\e[0m"

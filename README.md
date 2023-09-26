@@ -6,10 +6,9 @@
 - `./install.sh`
 
 # what is going to be installed? 🤔
-- Hyprland (https://github.com/hyprwm/Hyprland)
-- Tema para o GRUB
-- Starship (https://starship.rs/)
-- Grim (https://github.com/emersion/grim)
-- Kitty (https://github.com/kovidgoyal/kitty)
-- Neovim (https://github.com/neovim/neovim)
-- Waybar (https://github.com/Alexays/Waybar)
+- [Hyprland](https://github.com/hyprwm/Hyprland)
+- [Starship](https://starship.rs/)
+- [Grim](https://github.com/emersion/grim)
+- [Kitty](https://github.com/kovidgoyal/kitty)
+- [Neovim](https://github.com/neovim/neovim)
+- [Waybar](https://github.com/Alexays/Waybar)

@@ -1,5 +1,8 @@
 # My Hyprland setup script 🤙
 
+![Hi](https://github.com/adotive/hyprland/blob/main/example.png)
+
+
 # Install 💻
 - `git clone https://github.com/adotive/hyprland`
 - `chmod +x install.sh`

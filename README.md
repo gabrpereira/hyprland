@@ -5,7 +5,7 @@
 - `chmod +x install.sh`
 - `./install.sh`
 
-# what is going to be installed? 🤔
+# What is going to be installed? 🤔
 - [Hyprland](https://github.com/hyprwm/Hyprland)
 - [Starship](https://starship.rs/)
 - [Grim](https://github.com/emersion/grim)

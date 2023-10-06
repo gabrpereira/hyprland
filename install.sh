@@ -18,7 +18,7 @@ echo -e "\e[1;34m
 
 # Apps
 echo -e "\e[1;32mInstalando aplicativos necessários...\e[0m"
-sudo pacman -Sy firefox waybar lsd ttf-jetbrains-mono-nerd hyprland ranger neovim kitty grim noto-fonts-cjk otf-font-awesome slurp
+sudo pacman -Sy firefox waybar feh lsd ttf-jetbrains-mono-nerd hyprland ranger neovim kitty grim noto-fonts-cjk otf-font-awesome slurp
 
 # Config
 echo -e "\e[1;32mClonando meu repositório com meus arquivos de configuração...\e[0m"

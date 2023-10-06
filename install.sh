@@ -47,12 +47,6 @@ sudo rm -r Top-5-Bootloader-Themes
 # Install Lf
 yay -S lf
 
-# Dir 
-mkdir pix
-mkdir dl
-mkdir doc
-mkdir .config/zsh
-
 
 # Final stage
 sudo rm install.sh

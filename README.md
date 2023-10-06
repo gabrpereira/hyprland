@@ -1,4 +1,4 @@
-# My Hyprland setup script 🤙
+# My Hyprland install script 🤙
 
 ![Hi](https://github.com/adotive/hyprland/blob/main/example.png)
 

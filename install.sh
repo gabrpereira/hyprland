@@ -30,6 +30,9 @@ git clone https://github.com/adotive/waybar ~/.config/waybar
 echo -e "\e[1;32mInstalando o prompt Starship...\e[0m"
 curl -sS https://starship.rs/install.sh | sh
 
+# Nvchad
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+
 # Yay
 echo -e "\e[1;32mInstalando o Yay (AUR Helper)...\e[0m"
 git clone https://aur.archlinux.org/yay.git ~/.config/yay
